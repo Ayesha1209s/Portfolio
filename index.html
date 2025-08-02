@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ummatul Ayesha - Cybersecurity Enthusiast & Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of Ummatul Ayesha, B.Tech CSE student specializing in Cybersecurity and Full Stack Development. Building secure, intelligent, and user-friendly solutions.">
+    <meta name="keywords" content="Ummatul Ayesha, Cybersecurity, Full Stack Developer, B.Tech CSE, Web Development, Network Security, Java, Python, JavaScript, React">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Ummatul Ayesha</div>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#experience" class="nav-link">Experience & Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-3d" id="hero-canvas"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Hi, I'm <span class="gradient-text">Ummatul Ayesha</span>
+            </h1>
+            <p class="hero-subtitle">Cybersecurity Enthusiast & Full-Stack Developer</p>
+            <p class="hero-description">Building secure, intelligent, and user-friendly solutions</p>
+           
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-3d" id="about-canvas"></div>
+                <div class="about-text">
+                    <p>I'm a passionate B.Tech CSE student specializing in Cybersecurity and Full Stack Development. As a quick learner with a deep interest in AI, Cybersecurity, and modern web technologies, I thrive on building solutions that are not only functional but also secure and user-friendly.</p>
+                    <p>My journey in tech has been driven by curiosity and a commitment to continuous learning. I believe in the power of technology to solve real-world problems while maintaining the highest standards of security and user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-3d" id="skills-canvas"></div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TLS/SSL Protocols</span>
+                        <span class="skill-tag">Cryptography</span>
+                        <span class="skill-tag">Firewalls</span>
+                        <span class="skill-tag">Network Security Basics and OSI 7-layer model</span>
+                        <span class="skill-tag">Packet analysis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Tools & Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Wireshark</span>
+                        <span class="skill-tag">OpenSSL</span>
+                        <span class="skill-tag">Vercel</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A showcase of my work in cybersecurity, web development, and innovative solutions</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Cybersecurity</span>
+                        <div class="project-links">
+                            <a href="https://github.com/Ayesha1209s/SecureFile.git" class="project-link" title="GitHub Repository"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Secure File Encryption & Decryption Tool</h3>
+                    <p class="project-description">Built a Java-based desktop app that uses AES-256-CBC encryption with OpenSSL for secure file handling. Focused on providing a user-friendly GUI while ensuring high-grade data security.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">OpenSSL</span>
+                        <span class="tech-tag">AES-256-CBC</span>
+                        <span class="tech-tag">GUI</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Web Development</span>
+                        <div class="project-links">
+                            <a href="https://github.com/Ayesha1209s/UmmatulAyesha_letsupgrade_hackathon.git" class="project-link" title="GitHub Repository"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Make You Prettier</h3>
+                    <p class="project-description">Built a browser-based app that analyzes face shape, skin tone, and body type from uploaded images to suggest personalized hairstyles, outfit colors, and clothing styles.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Vanilla JavaScript</span>
+                        <span class="tech-tag">Canvas API</span>
+                        <span class="tech-tag">DOM Manipulation</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Web Development</span>
+                        <div class="project-links">
+                            <a href="https://github.com/example/medical-support-tool" class="project-link" title="GitHub Repository"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Medical Information & Support Tool</h3>
+                    <p class="project-description">Designed a web-based platform that helps users check symptoms and provides reliable health information. Implemented using Java, HTML, CSS, and JavaScript.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Backend Development</span>
+                        <div class="project-links">
+                            <a href="https://github.com/mee0210/HACKODISHA4.0.git" class="project-link" title="GitHub Repository"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Library Management System</h3>
+                    <p class="project-description">Developed a Java-based Library Management System with MySQL integration to manage books, track issues/returns, and maintain borrowing history.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">MYSQL</span>
+                        <span class="tech-tag">JDBC</span>
+                        
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Cybersecurity</span>
+                        <div class="project-links">
+                            <a href="https://github.com/Ayesha1209s/PRODIGY_cs_02.git" class="project-link" title="GitHub Repository"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Image Encryption & Decryption Tool</h3>
+                    <p class="project-description">Built a Python-based tool to encrypt and decrypt .jpg and .png images using lightweight pixel-level manipulation. The tool performs a reversible XOR operation on RGB pixel values with a numeric key, ensuring that the original image can only be recovered using the same key.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pillow(PIL)</span>
+                        <span class="tech-tag">CLI</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Professional certifications and achievements in cybersecurity and technology</p>
+        <div class="certifications-grid">
+            <div class="certification-card">
+                <div class="certification-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3 class="certification-title">Cybersecurity Essentials</h3>
+                <p class="certification-issuer">TATA</p>
+                <p class="certification-date">2024</p>
+                <div class="certification-badge">
+                    <span class="badge-text">Verified</span>
+                </div>
+                <div class="certification-links">
+                    <a href="https://drive.google.com/file/d/188YoqvW0ZwRWi0RUcLRDCNASeNYxI7J0/view?usp=sharing" target="_blank" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <div class="certification-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3 class="certification-title">AI for Beginners</h3>
+                <p class="certification-issuer">HP LIFE</p>
+                <p class="certification-date">2025</p>
+                <div class="certification-badge">
+                    <span class="badge-text">Verified</span>
+                </div>
+                <div class="certification-links">
+                    <a href="https://drive.google.com/file/d/1aji3xl3m0sVDgvDqh3Y3Xf4LolXkGxt9/view?usp=sharing" target="_blank" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <div class="certification-icon">
+                    <i class="fas fa-code-branch"></i>
+                </div>
+                <h3 class="certification-title">Open Source Contribution</h3>
+                <p class="certification-issuer">SWOC</p>
+                <p class="certification-date">2024</p>
+                <div class="certification-badge">
+                    <span class="badge-text">Verified</span>
+                </div>
+                <div class="certification-links">
+                    <a href="https://drive.google.com/file/d/1ChKwET4r3YVAGeAVsXwnI4-9-wzlJ4-V/view?usp=sharing" target="_blank" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <div class="certification-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h3 class="certification-title">Quantam Computing</h3>
+                <p class="certification-issuer">C-DAC & IIT ROORKEE</p>
+                <p class="certification-date">2025</p>
+                <div class="certification-badge">
+                    <span class="badge-text">Verified</span>
+                </div>
+                <div class="certification-links">
+                    <a href="https://drive.google.com/file/d/1YD72mfvSSBQkAUzc4T3LQ62Oqy_6XEsi/view?usp=sharing" target="_blank" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <div class="certification-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3 class="certification-title">Hackathon</h3>
+                <p class="certification-issuer">LetsUpgrade</p>
+                <p class="certification-date">2025</p>
+                <div class="certification-badge">
+                    <span class="badge-text">Verified</span>
+                </div>
+                <div class="certification-links">
+                    <a href="https://drive.google.com/file/d/1ooIqDoMJu5UZv3iLttgmCQiDgsJM1czU/view?usp=sharing" target="_blank" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <div class="certification-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3 class="certification-title">SoftwareEngineer Intern</h3>
+                <p class="certification-issuer">HACKERRANK</p>
+                <p class="certification-date">2025</p>
+                <div class="certification-badge">
+                    <span class="badge-text">Verified</span>
+                </div>
+                <div class="certification-links">
+                    <a href="https://www.hackerrank.com/certificates/ad561e331144" target="_blank" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <p class="section-subtitle">B.Tech CSE with specialization in Cybersecurity (Current 3rd Year) at Siksha O Anusandhan</p>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Cybersecurity Intern</h3>
+                        <h4>Prodigy InfoTech</h4>
+                        <p>Gained hands-on experience in network security, penetration testing, and data protection. Worked on real-world cybersecurity projects, identifying vulnerabilities and strengthening defenses.</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>NGO Intern</h3>
+                        <h4>Muskurahat Foundation</h4>
+                        <p>Contributed to tech-based initiatives supporting underprivileged children, including developing and managing digital tools to help the foundation improve outreach and engagement.</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Student Ambassador</h3>
+                        <h4>LetsUpgrade</h4>
+                        <p>Represented the platform on campus, promoting tech upskilling programs, organizing workshops, and building a community of learners. Enhanced communication, leadership, and networking skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to collaborate on exciting projects or discuss opportunities? Let's connect!</p>
+            
+            <!-- Links Section -->
+            <div class="links-section">
+                <h3 class="links-title">Connect With Me</h3>
+                <div class="links-grid">
+                    <a href="https://github.com/Ayesha1209s" class="link-item" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ummatul-ayesha-44813b2b5/" class="link-item" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://ummatulayesha.dev" class="link-item" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <span>Portfolio</span>
+                    </a>
+                    <a href="https://twitter.com/ummatulayesha" class="link-item" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="https://ummatulayesha.medium.com" class="link-item" target="_blank">
+                        <i class="fas fa-link"></i>
+                        <span>Other</span>
+                    </a>
+                </div>
+            </div>
+
+            
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ummatul Ayesha. Built with passion for cybersecurity and innovation.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Particles -->
+    <div class="floating-particles" id="particles"></div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
